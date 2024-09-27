@@ -5,4 +5,4 @@ export interface PodcastModel {
     episode: string;
     videoId: string;
     categories: string[];
-};
+  }

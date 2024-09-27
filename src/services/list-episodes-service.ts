@@ -1,4 +1,4 @@
-import { PodcastTransferModel } from "../models/filter-podcast-models";
+import { PodcastTransferModel } from "../models/podcast-transfer-model";
 import { repositoryPodcast } from "../repositories/podcasts-repository";
 import { StatusCode } from "../utils/status-code";
 
@@ -22,4 +22,4 @@ export const serviceListEpisodes = async (): Promise<PodcastTransferModel> => {
 
     return responseFormat;
     
-}
+};
